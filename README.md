@@ -33,5 +33,7 @@ This repository covers different aspects of automation testing as outlined in th
 * In `Selenium/locator1.py` we can retrieve data from various elements in a page by inspecting the "id" associated with a web element.  
 ![Image](./images/locator1.png)  
 * In `Selenium/locator2.py` we can access the page linked to text on the page by using `By.LINK_TEXT`.  
-![Image](./images/locator_by_link_text.png)  
+![Image](./images/locator_by_link_text.png)
+* In `Selenium/xpath.py` we can use a relative path scheme to identify HTML elements that may not have a unique "id" attribute. These are the schemes that are used: `//tagname[@attribute='value']` or `//*[@attribute='value']`.
+![Image](./images/xpath_used.png)  
 
